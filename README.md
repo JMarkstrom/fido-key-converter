@@ -4,11 +4,11 @@
 **key-convert** is a utility that converts a FIDO2 _public_ key credential for use with Yubico’s **pam-u2f** module. It specifically retrieves SSH public keys stored on a YubiKey (where the Relying Party ID is ´ssh:´) and converts them into a format compatible with pam-u2f.   
 
 This allows users to leverage a single device-bound passkey (resident key) for both:   
+
 ✅ Remote access to Linux via SSH   
 ✅ Interactive authentication on Linux via pam-u2f   
 
-By enabling this dual functionality, key-convert simplifies remote onboarding for administrators, making it easier to grant Linux host access to end users.   
-To streamline adoption, key-convert is distributed as a single-file binary for **Windows**, **Linux**, and **macOS**.
+By enabling this dual functionality, key-convert simplifies remote onboarding for administrators, making it easier to grant Linux host access to end users. To streamline adoption, key-convert is distributed as a single-file binary for **Windows**, **Linux**, and **macOS**.
 
 ## ⚠️ Disclaimer
 The binaries provided herein is made available on an "as-is" basis, without any warranties or representations, whether express, implied, or statutory, including but not limited to implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
