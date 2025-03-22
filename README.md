@@ -21,13 +21,6 @@ _If you just run the utility it will prompt for PIN when required:_
 ```bash
 convert-key
 ``
-   
-**Convert public key with PIN as an argument**
-_You can provide PIN as an argument using either `-p` or `--pin` (shown):_
-
-```bash
-convert-key --pin 1234
-```
 
 ## 📖 Roadmap
 Possible improvements includes:
