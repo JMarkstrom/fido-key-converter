@@ -1,16 +1,13 @@
 # fido-key-converter
 
 ## ℹ️ About
-**key-convert** is a utility to convert a FIDO2 _public_ key credential for use with Yubico's pam-u2f module. Specifically, the tool connects to a YubiKey to obtain any public key used for SSH (Relying Party ID == ´ssh:´) and then converts and outputs one or more public key identities in a format acceptable to *pam-u2f*. This enables the user to use a single device-bound passkey (resident key) for both remote access to Linux (ssh), as well as Linux interactive use (pam-u2f). In doing so, the solution also enables administrators to more easily remote onboard end-users for Linux host access. To simplify adoption and use, key-convert is provides as a single file binary for **Windows**, **Linux** and **macOS**.
+**key-convert** is a utility that converts a FIDO2 _public_ key credential for use with Yubico’s **pam-u2f** module. It specifically retrieves SSH public keys stored on a YubiKey (where the Relying Party ID is ´ssh:´) and converts them into a format compatible with pam-u2f.   
 
-## ℹ️ About
-**key-convert** is a utility that converts a FIDO2 _public_ key credential for use with Yubico’s **pam-u2f** module. It specifically retrieves SSH public keys stored on a YubiKey (where the Relying Party ID is ´ssh:´) and converts them into a format compatible with pam-u2f.
+This allows users to leverage a single device-bound passkey (resident key) for both:   
+✅ Remote access to Linux via SSH   
+✅ Interactive authentication on Linux via pam-u2f   
 
-This allows users to leverage a single device-bound passkey (resident key) for both:
-✅ Remote access to Linux via SSH
-✅ Interactive authentication on Linux via pam-u2f
-
-By enabling this dual functionality, key-convert simplifies remote onboarding for administrators, making it easier to grant Linux host access to end users.
+By enabling this dual functionality, key-convert simplifies remote onboarding for administrators, making it easier to grant Linux host access to end users.   
 To streamline adoption, key-convert is distributed as a single-file binary for **Windows**, **Linux**, and **macOS**.
 
 ## ⚠️ Disclaimer
