@@ -13,7 +13,7 @@ By enabling this dual functionality, **key-convert** simplifies remote onboardin
 ## ⚠️ Disclaimer
 The binaries provided herein is made available on an "as-is" basis, without any warranties or representations, whether express, implied, or statutory, including but not limited to implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
 
-## 💻 Prerequisites
+## 💻 Prerequisites   
 _Use of key-convert requires the following prerequisites be met:_
 - YubiKey with support for Credential Management (all current YubiKeys)
 
@@ -23,14 +23,14 @@ No installation is required (just run download and run the binary as shown below
 ## 📖 Usage
 
 **Convert public key interactively:**
-_If you just run the utility it will prompt for PIN when required:_
+_If you just run the utility it will prompt for PIN when required:_   
 
 ```bash
 convert-key
 ```
 
 **Convert public key with PIN as an argument**
-_You can provide PIN as an argument using either `-p` or `--pin` (shown):_
+_You can provide PIN as an argument using either `-p` or `--pin` (shown):_   
 
 ```bash
 convert-key --pin 1234
