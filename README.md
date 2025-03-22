@@ -22,14 +22,14 @@ No installation is required (just run download and run the binary as shown below
 
 ## 📖 Usage
 
-**Convert public key interactively:**
+**Convert public key interactively:**   
 _If you just run the utility it will prompt for PIN when required:_   
 
 ```bash
 convert-key
 ```
 
-**Convert public key with PIN as an argument**
+**Convert public key with PIN as an argument**   
 _You can provide PIN as an argument using either `-p` or `--pin` (shown):_   
 
 ```bash
