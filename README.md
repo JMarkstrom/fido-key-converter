@@ -42,7 +42,7 @@ Found 1 credential(s) for RP (ssh:):
 
 :*,YAOzTPcgn3XVjFOlxjwopXgrv9BcaNEqa15BJLw6tJIevbwM54rTTLuS2x7mUz4a3JNHJIVBV3/Mbf/tSvJXBA==,es256,+presence+pin
 ```
-**NOTE**: For instructions on integration of the converted public key into **pam-u2f** see [![this](https://swjm.blog/fido2-security-key-sign-in-on-linux-3f9f9fd629d7)
+**NOTE**: For instructions on integration of the converted public key into **pam-u2f** see [this](https://swjm.blog/fido2-security-key-sign-in-on-linux-3f9f9fd629d7)
  guide.
 
 
