@@ -35,6 +35,13 @@ _You can provide PIN as an argument using either `-p` or `--pin` (shown):_
 ```bash
 convert-key --pin 1234
 ```
+Example output:   
+
+```bash
+Found 1 credential(s) for RP (ssh:):
+
+:*,YAOzTPcgn3XVjFOlxjwopXgrv9BcaNEqa15BJLw6tJIevbwM54rTTLuS2x7mUz4a3JNHJIVBV3/Mbf/tSvJXBA==,es256,+presence+pin
+```
 
 ## 📖 Roadmap
 Possible improvements includes:
