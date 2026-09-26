@@ -60,3 +60,9 @@ Donations will support costs such as domain registration and code signing (plann
 
 ## 📜 Release History
 * 2025.03.22 `v0.0.1`
+
+## ™️ Trademark notice
+YubiKey is a trademark of Yubico. This project is independent of and is not affiliated with, endorsed by, or sponsored by Yubico.
+
+## ⚖️ License
+This software is proprietary. Copyright (c) 2025 swjm.blog. All rights reserved. See [LICENSE](LICENSE) for details.
