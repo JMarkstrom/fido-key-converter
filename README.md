@@ -11,7 +11,7 @@ This allows users to leverage a single device-bound passkey (resident key) for b
 By enabling this dual functionality, **key-convert** simplifies remote onboarding for administrators, making it easier to grant Linux host access to end users. To streamline adoption, key-convert is distributed as a single-file binary for **Windows**, **Linux**, and **macOS**.
 
 ## ⚠️ Disclaimer
-The binaries provided herein is made available on an "as-is" basis, without any warranties or representations, whether express, implied, or statutory, including but not limited to implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
+This application is provided on an “AS IS” basis, without warranties or representations of any kind. For the complete warranty disclaimer and terms governing use, modification, and redistribution, see the [BSD-2-Clause License](LICENSE).
 
 ## 💻 Prerequisites   
 _Use of key-convert requires the following prerequisites be met:_
@@ -65,4 +65,6 @@ Donations will support costs such as domain registration and code signing (plann
 YubiKey is a trademark of Yubico. This project is independent of and is not affiliated with, endorsed by, or sponsored by Yubico.
 
 ## ⚖️ License
-This software is proprietary. Copyright (c) 2026 swjm.blog. All rights reserved. See [LICENSE](LICENSE) for details.
+This software is licensed under the [BSD-2-Clause License](LICENSE).   
+Copyright (c) 2026 swjm.blog.
+
